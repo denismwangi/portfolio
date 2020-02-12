@@ -1,0 +1,18 @@
+{
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation":"portrait",
+  "theme_color": "#ffffff",
+  "short_name": "Denis mwangi",
+  "name": "Denis Mwangi github",
+  "description": "blog and portifolio",
+  "lang": "en-US",
+  "icons": [
+    {
+   //   "src": "images/icon.png",
+    //  "sizes": "72x72",
+    //  "type": "image/png"
+    }
+  ],
+  "start_url": "index.html?launcher=true"
+}
