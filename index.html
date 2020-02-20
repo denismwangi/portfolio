@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<link rel="stylesheet" href="">
 	<title></title>
-</head>
+</head>    
 <body>
 <div id="profile">
         <div id="profile_img" style="background: url(dennis.jpg) center;"></div>
@@ -27,13 +27,22 @@
             <span style="display:block;"><i class="fas fa-link"></i> &nbsp; https://denismwangi.github.io</span>
             <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
         <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Nairobi</span>
+        <span style="display: block;"><i class="fas fa-facebook">&nbsp;&nbsp;</i>facebook</span>
+
+
+    </div>
+    <div class="social-icons">
+        <span style="display: block;"><i class="fas fa-facebook">&nbsp;&nbsp;</i>facebook</span>
+         <span style="display: block;"><i class="fas fa-facebook">&nbsp;&nbsp;</i>facebook</span>
+          <span style="display: block;"><i class="fas fa-facebook">&nbsp;&nbsp;</i>facebook</span>
+        
     </div>
     </div>
     <style type="text/css">
     	@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
          @import url('https://fonts.googleapis.com/css?family=Questrial');
          body{margin:0%;padding:0%;width:100vw;background:var(--bg-color);color:var(--text-color); max-width:100vw;overflow-x:hidden;align-items:center;font-family:'Josefin Sans', sans-serif;}
-    	   #profile {width:24vw;padding:4vh 3vw;height:92vh;display:flex;flex-direction:column;justify-content:center;text-align:left;background: #594f8d;background-size: cover !important;background-repeat:no-repeat;position:fixed;color:black !important;}#profile_img {width:200px;height:200px;border-radius:50%;background-size:cover !important;}#profile div {font-weight:bold;margin:1.5vh 0px;}#username {font-size:18px;font-weight:bold;}#username span {font-size:24px;}#userbio {font-size:26px;font-family: 'Questrial', sans-serif;width:100%;}#about {font-size:18px;font-family: 'Questrial',sans-serif;}#about span {margin:1vh 0px; display:block;} #about span i { font-size:16px;}
+    	   #profile {width:20vw;padding:4vh 3vw;height:92vh;display:flex;flex-direction:column;justify-content:center;text-align:left;background: #594f8d;background-size: cover !important;background-repeat:no-repeat;position:fixed;color:black !important;}#profile_img {width:200px;height:200px;border-radius:50%;background-size:cover !important;}#profile div {font-weight:bold;margin:1.5vh 0px;}#username {font-size:18px;font-weight:bold;}#username span {font-size:24px;}#userbio {font-size:26px;font-family: 'Questrial', sans-serif;width:100%;}#about {font-size:18px;font-family: 'Questrial',sans-serif;}#about span {margin:1vh 0px; display:block;} #about span i { font-size:16px;}
 
 ::-webkit-scrollbar {width:5px;height:5px;}
 ::-webkit-scrollbar-track {background:var(--bg-color);}
@@ -43,19 +52,26 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 
 
-#display {
-    width:64vw;
-    padding:4vh 3vw;
+#display {width:72.5vw; padding:4vh 3vw;
     height:92vh;
     display:inline-block;
-    padding-left:33vw;
+    padding-left:27vw;
+}
+#display #top{
+    padding-top: 4vw;
+    background: #594f8d;
+
 }
 
-#display h1 {
+#display #top h1 {
     font-size:50px;
     color:var(--text-color);
     font-weight:bold;
     font-family: 'Questrial', sans-serif;
+    text-align: center;
+
+
+
 }
 
 .emoji {
@@ -87,6 +103,7 @@
     padding:8vh 0px;
     text-align:center;
     background: #47ACA3 ;
+    margin-bottom: 10px;
 }
 
 #footer a {
@@ -104,12 +121,12 @@
 }
 
 #work {
-    margin:2vh 0px;
-    padding:4vh 0px !important;
+   /* margin:2vh 0px;
+    padding:4vh 0px !important; */
 }
 
 #projects {
-    columns:2;
+    columns:2;  /*remove rows*/
 }
 
 #projects section {
@@ -167,7 +184,7 @@
 
 
 
-@media (max-width: 800px){
+@media (max-width: 811px){
     #profile {
         width:90vw;
         padding:4vh 5vw;
@@ -202,8 +219,12 @@
 
 
      <div id="display">
+        <div id="top">
+            <h1>projects.</h1>
+
+            </div>
         <div id="work">
-            <h1>Work.</h1>
+            
             <div id="projects">
                     <section>
                         <div class="section_title">biz for me</div>
@@ -223,18 +244,37 @@
                         <div class="bottom_section">
                            
                             <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                          
+                           
                         </div>
                     </section>
                     <section>
                         <div class="section_title">api</div>
                         <div class="about_section">
                         <span style="display:block;">api</span>
-				
                         </div>
                         <div class="bottom_section">
                             <span style="display:inline-block;"><i class="fas fa-star"></i>&nbsp; 0</span>
                         
+                        </div>
+                    </section>
+                    <section>
+                        <div class="section_title">biz for me</div>
+                        <div class="about_section">
+                        <span style="display:block;">biz for me</span>
+                        </div>
+                        <div class="bottom_section">
+                            
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="section_title">biz for me</div>
+                        <div class="about_section">
+                        <span style="display:block;">biz for me</span>
+                        </div>
+                        <div class="bottom_section">
+                            
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
                         </div>
                     </section>
                     
@@ -242,23 +282,23 @@
             </div>
 
             
-        <div id="footer" onclick="hide()">
-		<!-- <a>dennis </a> -->
-		 <a href="" target="_blank">Made with <span style="color: red"> ❤ </span> by denis </a>
-            
+        <<div id="footer" onclick="hide()">
+        <!-- <a>dennis </a> -->
+         <a href="" target="_blank">Made with <span style="color: red"> ❤ </span> by denis </a>
+            <p>&copy All Wrongs Not Reserved</p>
         </div>
         </div>
-
-   <script type="text/javascript" >
-	   //var text = "dennis";
-	  // document.write("<p>dennis " + text.link("https://github.com/denismwangi") + "</p>");
-	// document.getElementById("footer").innerHTML ="<p>&copy; " +new Date().getFullYear() + "all rights reserved</p>"
-	   // function hide(){
-		//    window.location.href="https://github.com/denismwangi";
-		   
-	    //}
-	   
-	</script>
-	   
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" >
+       //var text = "dennis";
+      // document.write("<p>dennis " + text.link("https://github.com/denismwangi") + "</p>");
+    // document.getElementById("footer").innerHTML ="<p>&copy; " +new Date().getFullYear() + "all rights reserved</p>"
+       // function hide(){
+        //    window.location.href="https://github.com/denismwangi";
+           
+        //}
+       
+    </script>
+    
 </body>
 </html>
